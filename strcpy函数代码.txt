@@ -1,3 +1,4 @@
+/*/*/*/*
 char* StrCpy(char* src)
 {
 	int len;
@@ -17,3 +18,4 @@ char* StrCpy(char* src)
 /*
 远程编辑
 */
+*/*/*/*/
