@@ -14,3 +14,6 @@ char* StrCpy(char* src)
 	return *pmessage;
 	
 }
+/*
+远程编辑
+*/
