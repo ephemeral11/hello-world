@@ -1,0 +1,15 @@
+char* StrCpy(char* src)
+{
+	int len;
+	char pmessage;
+	len=strlen(src);
+	pmessage = (char) malloc(sizeof(char)*len+1);
+	int i;
+	for(i=0;i<len;i++)
+	{
+		pmessage[i]=src[i];
+	}
+	pmessage = (char)malloc(sizeof(char));
+	pmessage[len+1]='\0';
+	return *pmessage;
+}
