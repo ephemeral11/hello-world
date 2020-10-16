@@ -12,4 +12,5 @@ char* StrCpy(char* src)
 	pmessage = (char)malloc(sizeof(char));
 	pmessage[len+1]='\0';
 	return *pmessage;
+	
 }
